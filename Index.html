@@ -6,7 +6,7 @@
   <title>Mi Sitio Web</title>
   <link href="style.css" rel="stylesheet">
   <link rel="icon" href="Imagenes/logo_3.png" type="image/png">
-  
+
   <!--FONT AWESOME-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -103,16 +103,18 @@
       <div class="container-thirdcontent-left">
       </div>
       <div class="container-thirdcontent-rigth">
-        
-        <div class="container">
+        <div class="texto9">
+          <p>¡Contáctanos!</p>
+        </div>
+        <div class="container-form">
           <form action="action_page.php">
-        
+
             <label for="fname">Nombre completo</label>
-            <input type="text" id="fname" name="firstname" placeholder="Tú nombre..">
-        
-            <label for="lname">Correo</label>
-            <input type="text" id="lname" name="lastname" placeholder="Tú correo..">
-        
+            <input type="text" id="fname" name="name" placeholder="Tú nombre..">
+
+            <label for="lmail">Correo</label>
+            <input type="text" id="lmail" name="mail" placeholder="Tú correo..">
+
             <label for="Comuna">Comuna</label>
             <select id="Comuna" name="Comuna">
               <option value=" "> </option>
@@ -123,12 +125,13 @@
               <option value="Providencia">Providencia</option>
               <option value="Vitacura">Vitacura</option>
             </select>
-        
+
             <label for="Mensaje">Mensaje</label>
-            <textarea id="subject" name="subject" placeholder="Cuéntanos lo que necesitas" style="height:200px"></textarea>
-        
+            <textarea id="subject" name="subject" placeholder="Cuéntanos lo que necesitas"
+              style="height:100px"></textarea>
+
             <input type="enviar" value="Enviar">
-        
+
           </form>
         </div>
 

@@ -250,7 +250,7 @@ nav li {
 .container-thirdcontent-rigth {
     width: 42.5%;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 5%;
     float: left;
     background-color: #DC879A;
@@ -497,13 +497,28 @@ input[type=text], select, textarea {
     background-color: #FFFFF;
     
   }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+
+  .container-form {
     border-radius: 5px;
     background-color: #DC879A;
     padding: 0px;
     margin-top: 0px;
     color: #ffffff;
     font-family: 'Play', sans-serif;
+    width: 70%;
   }
+
+  .texto9 {
+    color: white;
+    font-size: 40px;
+    /* Tamaño de la fuente */
+    font-weight: bolder;
+    padding-left: 0px;
+    /* Espacio a la izquierda */
+    position: relative;
+    display: flex;
+    /* Utiliza el modelo de caja flexible */
+    flex-wrap: wrap;
+    /* Permite el ajuste de palabras a la siguiente línea */
+    margin-left: 0px;
+}
