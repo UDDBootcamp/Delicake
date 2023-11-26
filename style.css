@@ -60,7 +60,7 @@ nav li {
     /* Color del texto */
     border-radius: 10px;
     /* Bordes redondeados */
-    padding: 5px;
+    padding: 1px;
     /* Espaciado interno */
     width: 300px;
     /* Ancho de la caja */
@@ -144,25 +144,28 @@ nav li {
 }
 
 .img-rigth {
-    width: 250px; /* Ancho deseado */
+    width: 250px;
+    /* Ancho deseado */
     height: auto;
     margin-left: 75px;
     margin-top: 20px;
 }
 
 .img-central {
-    width: 320px; /* Ancho deseado */
+    width: 320px;
+    /* Ancho deseado */
     height: auto;
     margin-left: 45px;
     margin-top: 30px;
-  
+
 }
 
 .img-left {
-    width: 300px; /* Ancho deseado */
+    width: 300px;
+    /* Ancho deseado */
     height: auto;
     margin-left: 50px;
- 
+
 }
 
 .text-rigth1 {
@@ -172,6 +175,7 @@ nav li {
     font-weight: bold;
     margin-top: 38px;
 }
+
 .text-rigth2 {
     text-align: center;
     color: #DC879A;
@@ -192,6 +196,7 @@ nav li {
     font-weight: bold;
     margin-top: 58px;
 }
+
 .text-central2 {
     text-align: center;
     color: #DC879A;
@@ -210,6 +215,7 @@ nav li {
     font-size: 30px;
     font-weight: bold;
 }
+
 .text-left2 {
     text-align: center;
     color: #DC879A;
@@ -402,11 +408,56 @@ nav li {
 }
 
 
-footer {
-    background-color: white;
-    /* Color de fondo del pie de página */
+.footer {
+    background: #ffffff;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
     color: #DC879A;
-    /* Color del texto del pie de página */
-    text-align: left;
-    padding: 150px 0;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: #DC879A;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
 }
