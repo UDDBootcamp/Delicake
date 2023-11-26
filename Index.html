@@ -43,12 +43,10 @@
           <p>Endulza tu día con nuestras tentadoras delicias</p>
         </div>
         <div class="texto2">
-          <p>Si deseas comprar alguno de nuestros productos o necesitas más información, ingresa tu correo a
-            continuación: </p>
+          <p>Si deseas comprar alguno de nuestros productos o necesitas más información, ¡contáctanos!</p>
         </div>
         <div class="texto3">
-          <label for="email">Correo electrónico (ejemplo@123.com):</label>
-          <input type="email" id="email" pattern=".+@example\.com" size="37" required />
+          <p>Especial: Solicitar catálogo de Navidad</p>
         </div>
         <div class="texto4">
           <p>Te contactaremos lo antes posible.</p>
@@ -105,20 +103,35 @@
       <div class="container-thirdcontent-left">
       </div>
       <div class="container-thirdcontent-rigth">
-        <div class="texto5">
-          <p>Endulza tu día con nuestras tentadoras delicias</p>
+        
+        <div class="container">
+          <form action="action_page.php">
+        
+            <label for="fname">Nombre completo</label>
+            <input type="text" id="fname" name="firstname" placeholder="Tú nombre..">
+        
+            <label for="lname">Correo</label>
+            <input type="text" id="lname" name="lastname" placeholder="Tú correo..">
+        
+            <label for="Comuna">Comuna</label>
+            <select id="Comuna" name="Comuna">
+              <option value=" "> </option>
+              <option value="La Reina">La Reina</option>
+              <option value="Las Condes">Las Condes</option>
+              <option value="Lo Barnechea">Lo Barnechea</option>
+              <option value="Ñuñoa">Ñuñoa</option>
+              <option value="Providencia">Providencia</option>
+              <option value="Vitacura">Vitacura</option>
+            </select>
+        
+            <label for="Mensaje">Mensaje</label>
+            <textarea id="subject" name="subject" placeholder="Cuéntanos lo que necesitas" style="height:200px"></textarea>
+        
+            <input type="enviar" value="Enviar">
+        
+          </form>
         </div>
-        <div class="texto6">
-          <p>Si deseas comprar alguno de nuestros productos o necesitas más información, ingresa tu correo a
-            continuación: </p>
-        </div>
-        <div class="texto7">
-          <label for="email">Correo electrónico (ejemplo@123.com):</label>
-          <input type="email" id="email" pattern=".+@example\.com" size="37" required />
-        </div>
-        <div class="texto8">
-          <p>Te contactaremos lo antes posible.</p>
-        </div>
+
       </div>
     </div>
 

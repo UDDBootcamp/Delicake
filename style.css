@@ -5,11 +5,16 @@ body {
     background-color: #ffffff;
 }
 
+p {
+    font-family: 'Play', sans-serif;
+}
+
 nav {
     background-color: #ffffff;
     /* Fondo de color*/
     margin: 0px;
     /* Sin margen */
+    text-decoration: none;
     color: #DC879A;
     /* Letras de color */
     font-weight: bold;
@@ -26,7 +31,7 @@ nav {
     /* Espacio a la izquierda */
     padding-right: 150px;
     /* Espacio a la derecha */
-    font-family: Calibri, sans-serif;
+    font-family: 'Play', sans-serif;
 }
 
 .logo {
@@ -62,7 +67,7 @@ nav li {
     /* Bordes redondeados */
     padding: 1px;
     /* Espaciado interno */
-    width: 300px;
+    width: 320px;
     /* Ancho de la caja */
     padding-left: 20px;
     /* Espacio a la izquierda */
@@ -290,16 +295,16 @@ nav li {
     /* Color del texto */
     border-radius: 10px;
     /* Bordes redondeados */
-    padding: 15px;
+    padding: 1px;
     /* Espaciado interno */
-    width: 300px;
+    width: 320px;
     /* Ancho de la caja */
     padding-left: 20px;
     /* Espacio a la izquierda */
     padding-right: 0px;
     /* Espacio a la derecha */
     position: relative;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 100px;
 }
 
@@ -461,3 +466,44 @@ nav li {
         margin: 0% 3%;
     }
 }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ffffff; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=enviar] {
+    background-color: #FFFFF;
+    color: #DC879A;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    width: 50px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=enviar]:hover {
+    background-color: #FFFFF;
+    
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #DC879A;
+    padding: 0px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: 'Play', sans-serif;
+  }
