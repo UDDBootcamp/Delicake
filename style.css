@@ -522,3 +522,21 @@ input[type=text], select, textarea {
     /* Permite el ajuste de palabras a la siguiente línea */
     margin-left: 0px;
 }
+
+.link {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link a {
+    text-decoration: none;
+    color: #DC879A;
+    transition: 0.5s;
+}
+
+.link a:hover {
+    color: #fff;
+}
+
+
+
