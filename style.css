@@ -25,27 +25,35 @@ nav {
     /* Sin margen */
     display: flex;
     justify-content: space-between;
-    padding: 24px;
+    padding: 0px;
     /* Ancho menú */
-    padding-left: 150px;
-    /* Espacio a la izquierda */
     padding-right: 150px;
+    padding-left: 50px;
     /* Espacio a la derecha */
     font-family: 'Play', sans-serif;
+    align-items: center;
 }
 
-.logo {
-    width: 30px;
-    /* Tamaño del logo */
-    height: 30px;
-    /* Altura automática según el ancho */
-}
+.logo img {
+    width: 55px; /* Ancho del logo */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 50px; /* Espacio entre el logo y el menú */
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
 }
 
 nav li {
