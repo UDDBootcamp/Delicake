@@ -74,8 +74,8 @@ nav li {
     padding-right: 0px;
     /* Espacio a la derecha */
     position: relative;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 10%;
+    margin-left: 10%;
 
 }
 
@@ -99,13 +99,13 @@ nav li {
 
 .container-content-left {
     width: 50%;
-    height: 700px;
+    height: 100%;
     float: left;
 }
 
 .container-content-rigth {
     width: 50%;
-    height: 670px;
+    height: 100%;
     float: right;
     background-color: rgb(176, 21, 21);
     background-image: url(Imagenes/inicial.jpg);
@@ -117,7 +117,7 @@ nav li {
 
 .container-secondcontent-left {
     width: 26.5%;
-    height: 480px;
+    height: 70%;
     margin-right: 5%;
     margin-top: 50px;
     float: right;
@@ -128,7 +128,7 @@ nav li {
 
 .container-secondcontent-central {
     width: 26.5%;
-    height: 480px;
+    height: 70%;
     margin-right: 5%;
     margin-top: 50px;
     float: right;
@@ -139,7 +139,7 @@ nav li {
 
 .container-secondcontent-rigth {
     width: 26.5%;
-    height: 480px;
+    height: 70%;
     margin-right: 5%;
     margin-top: 50px;
     float: right;
@@ -149,27 +149,23 @@ nav li {
 }
 
 .img-rigth {
-    width: 250px;
-    /* Ancho deseado */
+    width: 75%;
     height: auto;
-    margin-left: 75px;
-    margin-top: 20px;
+    margin-left: 12%;
 }
 
 .img-central {
-    width: 320px;
-    /* Ancho deseado */
+    width: 75%;
     height: auto;
-    margin-left: 45px;
-    margin-top: 30px;
+    margin-left: 12%;
+    margin-top: 12%;
 
 }
 
 .img-left {
-    width: 300px;
-    /* Ancho deseado */
+    width: 75%;
     height: auto;
-    margin-left: 50px;
+    margin-left: 12%;
 
 }
 
@@ -269,11 +265,30 @@ nav li {
     /* Utiliza el modelo de caja flexible */
     flex-wrap: wrap;
     /* Permite el ajuste de palabras a la siguiente línea */
-    margin-left: 100px;
+    margin-left: 10%;
+    height: 35%;
 
 }
 
 .texto2 {
+    color: white;
+    /* Color del texto blanco */
+    font-size: 30px;
+    /* Tamaño de la fuente */
+    padding-left: 0px;
+    /* Espacio a la izquierda */
+    position: relative;
+    display: flex;
+    /* Utiliza el modelo de caja flexible */
+    flex-wrap: wrap;
+    /* Permite el ajuste de palabras a la siguiente línea */
+    margin-left: 10%;
+    font-weight: bold;
+    height: 10%;
+    margin-bottom: 2%;
+}
+
+.texto3 {
     color: white;
     /* Color del texto blanco */
     font-size: 20px;
@@ -285,10 +300,10 @@ nav li {
     /* Utiliza el modelo de caja flexible */
     flex-wrap: wrap;
     /* Permite el ajuste de palabras a la siguiente línea */
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
-.texto3 {
+.texto3-correo {
     background-color: white;
     /* Color de fondo*/
     color: #DC879A;
@@ -304,20 +319,30 @@ nav li {
     padding-right: 0px;
     /* Espacio a la derecha */
     position: relative;
-    margin-top: 30px;
     margin-left: 100px;
     text-decoration: none;
     transition: 0.5s;
 }
 
-.texto3 a {
-    text-decoration: none;
+.enviar {
+    background-color: white;
+    /* Color de fondo*/
     color: #DC879A;
+    /* Color del texto */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    padding: 1px;
+    /* Espaciado interno */
+    width: 20px;
+    /* Ancho de la caja */
+    padding-left: 100px;
+    /* Espacio a la izquierda */
+    padding-right: 100px;
+    /* Espacio a la derecha */
+    position: relative;
+    margin-left: 100px;
+    text-decoration: none;
     transition: 0.5s;
-}
-
-.texto3 a:hover {
-    color: #fff;
 }
 
 .texto4 {
@@ -516,6 +541,17 @@ input[type=text], select, textarea {
     background-color: #DC879A;
     padding: 0px;
     margin-top: 0px;
+    color: #ffffff;
+    font-family: 'Play', sans-serif;
+    width: 70%;
+  }
+
+  .container-mail {
+    border-radius: 5px;
+    background-color: #DC879A;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 10%;
     color: #ffffff;
     font-family: 'Play', sans-serif;
     width: 70%;
